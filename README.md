@@ -1,4 +1,4 @@
-# rpc_protocol
+# RPC Protocol In C
 
 ## Table of Contents
 
