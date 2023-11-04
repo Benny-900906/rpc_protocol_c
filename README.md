@@ -120,14 +120,14 @@ Frees the memory allocated for a dynamically allcoated *rpc_data* struct.
 To run your server program on your VM prompt, type:
 
   ```bash
-  ./rpc-server -p <port> &
-  ./rpc-client -i <ip_address> -p <port>
+  ./server -p <port> &
+  ./client -i <ip_address> -p <port>
   ```
 
 where:
 
-- The *&* tells the operating system to run the server in the background.
+- The *&* tells the operating system to run the rpc server in the background.
 - *ip_address* is the IPv6 address of the VM on which the server is running.
-- *port* is the TCP (or other transport layer) port number of the server.
+- *port* is the TCP (or other transport layer) port number of the rpc server.
 
 The server is expected to listen for incoming connections on the port passed via command line arguments, on any of the hosts IPv6 network addresses.
